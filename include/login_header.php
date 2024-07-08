@@ -3,6 +3,7 @@
 <head>
   <title>Employee time Management</title>
   <meta charset="utf-8">
+  <link rel="shortcut icon" type="image/png" href="./assets/img/icon.png"/>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
   <link rel="stylesheet" href="./assets/css/bootstrap.theme.min.css">
