@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Employee time Management</title>
+  <title>Employee Time Management</title>
   <meta charset="utf-8">
   <link rel="shortcut icon" type="image/png" href="./assets/img/icon.png"/>
   <meta name="viewport" content="width=device-width, initial-scale=1">
