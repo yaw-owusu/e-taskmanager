@@ -73,7 +73,7 @@ include("include/sidebar.php");
             
           </div>
 
-          <center><h3>Manage Atendance</h3>  </center>
+          <center><h3>Manage Attendance</h3>  </center>
           <div class="gap"></div>
 
           <div class="gap"></div>

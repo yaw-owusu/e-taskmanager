@@ -34,7 +34,7 @@ if(isset($_POST['add_task_post'])){
     $obj_admin->add_new_task($_POST);
 }
 
-$page_name="Task_Info";
+$page_name="Daily-Task-Report";
 include("include/sidebar.php");
 // include('ems_header.php');
 
