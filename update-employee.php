@@ -76,7 +76,13 @@ include("include/sidebar.php");
                                 <input type="email" value="<?php echo $row['email']; ?>" placeholder="Enter employee email" name="em_email" class="form-control rounded-0" required>
                               </div>
                             </div>
-                      
+                            <div class="form-group">
+                              <label class="control-label text-p-reset">Phone Number</label>
+                              <div class="">
+                                <input type="phone_number" value="<?php echo $row['phone_number']; ?>" placeholder="Enter employee phone_number" name="em_phone_number" class="form-control rounded-0" required>
+                              </div>
+                            </div>
+                            
                             <div class="form-group">
                             </div>
                             <div class="form-group">

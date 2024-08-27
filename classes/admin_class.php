@@ -37,8 +37,12 @@ class Admin_Class {
         $username = $this->test_form_input_data( $data[ 'username' ] );
         try {
             $stmt = $this->db->prepare( 'SELECT * FROM tbl_admin WHERE username=:uname AND password=:upass LIMIT 1' );
+        
+
             $stmt->execute( array( ':uname'=>$username, ':upass'=>$upass ) );
+            
             $userRow = $stmt->fetch( PDO::FETCH_ASSOC );
+           
             if ( $stmt->rowCount() > 0 ) {
                 session_start();
                 $_SESSION[ 'admin_id' ] = $userRow[ 'user_id' ];
@@ -343,7 +347,7 @@ class Admin_Class {
         }
 
 
-        $url = "https://sms.arkesel.com/sms/api?action=send-sms&api_key=OllJdkxKZjM2NDJWMEpJUTE=&to=$to&from=ETask-NC&sms=A%20task%20has%20been%20created%20for%20you%20";
+        $url = "https://sms.arkesel.com/sms/api?action=send-sms&api_key=OllJdkxKZjM2NDJWMEpJUTE=&to=$to&from=ETask-NC&sms=A%20task%20has%20been%20assigned%20to%20you%20";
 
         $ch = curl_init();
         curl_setopt( $ch, CURLOPT_URL, $url );
